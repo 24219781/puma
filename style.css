@@ -1,0 +1,46 @@
+body{
+  background: linear-gradient( white , black);
+  height: 100vh;
+}
+h1{
+  color: white;
+  background-color: black;
+}
+nav ul li{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #000000, #ffffff);
+}
+nav ul li a:hover{
+  background: #ffffff;
+  color: black;
+  border-radius: 20px;
+}
+input{
+  border-radius: 30px;
+  color:#ffffff;
+  background: black;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+}
+hr{
+  height: 3px;
+  border-radius: 30px;
+  width: 90%;
+}
+img{
+  border-radius: 30px;
+  background-color: #000000;
+}
+button{
+  border-radius: 30px;
+  background: #fff5f5;
+  color: black;
+}
+svg{
+  margin: 25px;
+  border-radius: 30px;
+  height: 25px;
+  width: 31px;
+}
